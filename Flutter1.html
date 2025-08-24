@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Academic Scheduler</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #e3f2fd; }
+        header { background: #1565c0; color: white; text-align: center; padding: 1.5rem; font-size: 1.8rem; }
+        .container { width: 90%; margin: auto; padding: 20px; display: flex; justify-content: space-between; }
+        .section { background: white; padding: 20px; width: 30%; border-radius: 8px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); text-align: center; }
+        button { background: #ff9800; color: white; padding: 10px; border: none; cursor: pointer; border-radius: 5px; margin-top: 10px; }
+        button:hover { background: #e68900; }
+        .navbar { display: flex; justify-content: space-between; align-items: center; padding: 15px; background: #0d47a1; color: white; }
+        .navbar a { color: white; text-decoration: none; padding: 10px 20px; font-weight: bold; }
+        .navbar a:hover { background: #ff9800; border-radius: 5px; }
+        .profile-section, .contact-section { text-align: center; padding: 20px; background: white; border-radius: 8px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); margin: 20px auto; width: 50%; }
+        footer { background: #1565c0; color: white; text-align: center; padding: 15px; margin-top: 20px; font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI Academic Scheduler</h1>
+    </header>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#resources">Resources</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#profile">Profile</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="section" id="schedule">
+            <h2>AI-Powered Schedule</h2>
+            <p>Generate a personalized academic schedule using AI.</p>
+            <button onclick="generateSchedule()">Generate Schedule</button>
+        </div>
+        <div class="section" id="resources">
+            <h2>Academic Resources</h2>
+            <p>Find useful resources and stay updated on academic events.</p>
+            <button onclick="showResources()">View Resources</button>
+        </div>
+        <div class="section" id="jobs">
+            <h2>Jobs & Internships</h2>
+            <p>Discover job and internship opportunities that match your skills.</p>
+            <button onclick="showJobs()">Find Opportunities</button>
+        </div>
+    </div>
+    <div class="profile-section" id="profile">
+        <h2>Your Profile</h2>
+        <p>Name: Ayushi Srivastava</p>
+        <p>Email: srivastavaayushi902@gmail.com</p>
+        <p>Role: Student & Developer</p>
+    </div>
+    <div class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@academicscheduler.com</p>
+        <p>Phone: +91 9140149393</p>
+        <p>Location: Prayagraj, Uttar Pradesh</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 AI Academic Scheduler. All Rights Reserved.</p>
+    </footer>
+    <script>
+        function generateSchedule() {
+            alert("AI is generating your personalized schedule...");
+        }
+        function showResources() {
+            alert("Displaying academic resources and events...");
+        }
+        function showJobs() {
+            alert("Fetching job and internship opportunities...");
+        }
+    </script>
+</body>
+</html>
